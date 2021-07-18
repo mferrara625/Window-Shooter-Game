@@ -7,15 +7,15 @@ public class FirstPosition extends House {
 
     }
     public String toString(){
-        return "\n" +
-                "                     _____________________\n" +
-                "                    /\\uuuuuuuuuuuuuuuuuuuu\\\n" +
-                "                   /oo\\uuuuuuuuuuuuuuuuuuuu\\\n" +
-                "                  /____\\____________________\\\n" +
-                "                  | oooo|  ___  ___  ___   |\n" +
-                "                  |ooooo|  |O|  |_|  |_|   |\n" +
-                "                  |ooooo|      __          |\n" +
-                "                  |ooooo|     | .|         |\n" +
-                "                  |ooooo|     |  |         |";
+        return  "                                              ________________________________________\n" +
+                "                                             /\\uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu\\\n" +
+                "                                            /oo\\uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu\\ \n" +
+                "                                           /____\\_______________________________________\\\n" +
+                "                                           | oooo|  __________  __________  __________  |                    \n" +
+                "                                           |ooooo|  |        |  |        |  |        |  |\n" +
+                "                                           |ooooo|  |(︡• _⦣•︠)|  |________|  |________|  |\n" +
+                "                                           |ooooo|      __                __            |\n" +
+                "                                           |ooooo|     | .|              | .|           |\n" +
+                "                                           |ooooo|     |  |              |  |           |";
     }
 }

@@ -1,10 +1,11 @@
 package com.company;
 
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         // write your code here
         Scanner scan = new Scanner(System.in);
         House house = new House();
@@ -66,6 +67,8 @@ public class Main {
                     break;
                 house.reset();
             }
+        TimeUnit.SECONDS.sleep(1);
+        System.out.println("\n");
             if (player.hits >= 3) {
                 System.out.println("Target Eliminated, you WIN!!!  +200 pts");
                 player.score += 200;
@@ -83,10 +86,11 @@ public class Main {
                 }
 
             } else {
-                System.out.println("Game over");
+                System.out.println("Game Over");
                 house.reset();
                 house.window2 = "(︡• \uD83D\uDC45•︠).";
             }
+
             System.out.println(house);
             System.out.println("Final Score: " + player.score);
         }
